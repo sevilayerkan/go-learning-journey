@@ -1,6 +1,6 @@
 # Basics
 
-Notes I took while i studied go from [Codeacademy](https://www.codecademy.com/courses/learn-go)
+Notes on my golang learning process on [Codeacademy](https://www.codecademy.com/courses/learn-go) and various different sources.
 
 ## Introduction
 
