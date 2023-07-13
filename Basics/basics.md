@@ -42,14 +42,14 @@ Notes on my golang learning process on [Codeacademy](https://www.codecademy.com/
     
     //Main function
     func main () {
-    fmt.Println("Hello World") 
+        fmt.Println("Hello World") 
     } 
     ```
 
-    - Package Declaration
-        This line tells go which package is '.go' file belongs. 
+- Package Declaration
+    This line tells go which package is '.go' file belongs. 
 
-    - Import Statement
+- Import Statement
 
 ## Packages
 
@@ -60,4 +60,110 @@ Notes on my golang learning process on [Codeacademy](https://www.codecademy.com/
 
     3. https://medium.com/rungo/everything-you-need-to-know-about-packages-in-go-b8bac62b74cc
 
-    
+### Using multiple packages
+
+```go
+import (
+  "package1"
+  "package2"
+)
+```
+
+- For adding alias to package
+
+```go
+import (
+  p1 "package1"
+  "package2"
+)
+```
+
+## fmt Package
+
+- Implements formatted I/O with functions like C's printf and scanf
+
+Format words : 
+
+- %b -> binary base 2
+- %d -> decimal, int, uint
+- %o -> octal 
+- %x -> base 16, with lower-case letters for a-f
+- %g -> float32
+- %s -> string
+- %p -> pointer
+- %t -> boolean
+
+## Comments
+
+- // for single line comments
+- /* */ for multi line comments
+
+## Aritmetic Operators
+
+- '+' to add
+- '-' to subtract
+- '*' to multiply
+- / to divide
+- % to take the remainder (the modulus operator) between two numbers.
+
+## Variables
+
+```go
+var kilometersToMars int32 = 6210000
+
+var variableName string
+var stationName string
+var nextTrainTime int8
+var isUptownTrain bool
+
+var kilometersToMars int32
+//Assigning a value to a variable
+kilometersToMars = 62100000
+
+var kilometersToMars int32 = 6210000
+```
+
+**Constants** 
+
+```const earthsGravity = 9.80665```
+
+**Zero Values**
+
+- All numeric variables have a value of 0 before assignment. String variables have a default value of "", which is also known as the empty string because it contains no characters. Boolean variables have a default value of false.
+
+### Updating Values
+```go
+var basketTotal float64
+spinachPrice := 1.50
+basketTotal += spinachPrice
+```
+
+### Multiple Variable Declaration
+```go
+var part1, part2 string
+part1 = "To be..."
+part2 = "Not to be..."
+
+quote, fact := "Bears, Beets, Battlestar Galactica", true
+```
+
+ 
+basketTotal = basketTotal + carrotPrice
+fmt.Println(basketTotal) // Prints: 0.75
+
+### Inferring Type
+- For declare a variable without explicitly stating its type
+
+```nuclearMeltdownOccurring := true```
+
+- := is used to infer type and create a new variable.
+
+- Floats created in this way are of type float64. Integers created in this way are either int32 or int64
+
+## Strings
+
+```go
+//String concatenation
+description = nameOfSong + " is by: " + nameOfArtist + "."
+```
+
