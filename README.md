@@ -1,2 +1,2 @@
 # go-learning-journey
-My go learning journey w/@ladydevs
+My go learning journey
