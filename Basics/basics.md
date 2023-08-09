@@ -44,6 +44,7 @@ Notes on my golang learning process on [Codeacademy](https://www.codecademy.com/
     func main () {
         fmt.Println("Hello World") 
     } 
+
     ```
 
 - Package Declaration
@@ -166,6 +167,57 @@ fmt.Println(basketTotal) // Prints: 0.75
 //String concatenation
 description = nameOfSong + " is by: " + nameOfArtist + "."
 ```
+
+## User Input
+```go 
+var userinput string
+fmt.Scan(&userinput)
+```go
+
+## Conditionals
+```go 
+if condition {
+    #something
+}
+
+if (condition) {
+    #something
+} else if (condition) {
+    #sometingmore
+} else {
+    #somethingelse
+}
+
+```
+
+```if product := x * y; product > 60 ```
+
+# Comparison
+```==``` means **is equal**
+```!=``` means **is not equal**
+```<``` means **is less than**
+```>``` means **is greater than**
+```>=``` means **is less than or equal to**
+
+# Logical Operators
+```&&``` means **and**
+```||``` means **or**
+```!``` means **not**
+
+## Switch Statement
+``` go
+switch caseCondition {
+    case 1:
+        #something
+    case 2:
+    .
+    .
+    .
+    default:
+        #somethingelse
+}
+```
+
 
 
 
