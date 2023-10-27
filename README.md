@@ -1,6 +1,6 @@
 # go-learning-journey
 ## Motivation
-This repository is dedicated to documenting our journey of learning Golang at Ladydevs as a community. 
+This repository is dedicated to documenting our journey of learning Golang at Ladydevs and my Twitch community. 
 
 ## Resources
 
