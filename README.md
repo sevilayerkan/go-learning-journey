@@ -11,7 +11,6 @@ This repository is dedicated to documenting our journey of learning Golang at La
 - https://go.dev/learn/#guided-learning-journeys
 - https://go.dev/tour/welcome/1
 - https://www.w3schools.com/go/ 
-- https://www.youtube.com/watch?v=yyUHQIec83I -> Golang Tutorial for Beginners - TechWorld with Nana
 - https://www.youtube.com/watch?v=yyUHQIec83I -> Golang Tutorial for Beginners | Full Go Course - TechWorld with Nana
 - https://www.programiz.com/golang/getting-started
 - https://go.dev/tour/welcome/1
