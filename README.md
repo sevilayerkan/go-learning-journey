@@ -24,6 +24,7 @@ This repository is dedicated to documenting our journey of learning Golang at La
 - https://www.youtube.com/watch?v=wAUL4f0F8hA -> Go Türkiye giriş videosu
 - https://medium.com/mehmetcemyucel/golang-ile-sifirdan-proje-yapalim-b10c4b69792b
 - https://medium.com/i%CC%87yi-programlama/golang-c31ab87eb67c
+- https://github.com/ksckaan1/efektif-go
 
 ## Notes
 
